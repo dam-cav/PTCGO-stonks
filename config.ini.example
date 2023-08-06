@@ -1,0 +1,26 @@
+[connection]
+user = USERNAME
+credential = PASSWORD
+scanningDelay = 0.85
+scanningTimeout = 12
+serverVersion = 95
+clientVersion = 2.95.0.5815
+
+[trades]
+currentPacksId = uuuuuuuu-iiii-dddd-vvvv-444444444444
+
+[db]
+host = localhost
+user = root
+password = root
+database = poketrade
+auth_plugin = mysql_native_password
+port = 3308
+
+[device]
+deviceId = uuuuuuuu-iiii-dddd-vvvv-444444444444
+deviceName = DESKTOP-ABCDEFG
+fakeGraphicsDevice = AMD/NVIDIA series foobar
+fakeGraphicsMemorySize = 4096
+fakeSystemMemorySize = 16323
+fakeProcessor = Intel/AMD foobar @ 4.00 GHz

@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: black;
+  background-color: white;
+  padding: 10px;
+}
+
+.tradeGroup {
+  border: 1px solid black;
+  background-color: darksalmon;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+
+.trade {
+  border: 1px solid black;
+  background-color: deepskyblue;
+  margin-bottom: 5px;
+  padding: 10px;
+}
+
+.flex {
+  display: flex;
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+.confirm {
+  float: right;
+}
+
+/* style */
+
+.mono {
+  font-size: medium;
+  font-weight: normal;
+  background-color: white;
+  font-family: monospace;
+}
+
+.trade-values {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.gain {
+  color: greenyellow;
+  margin-right: 10px;
+}
+
+.risk {
+  color: #9c1010;
+  margin-right: 10px;
+}
+
+.forward, .back {
+  color: white;
+  display: block;
+  border-radius: 100%;
+  background-color: royalblue;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}
+
+.accept {
+  color: white;
+  display: block;
+  border-radius: 100%;
+  background-color: red;
+  padding: 10px;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  text-decoration: none;
+}

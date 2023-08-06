@@ -1,0 +1,11 @@
+# ignore logs
+/exchange*
+
+#ignore my specific config
+config.ini
+
+# ignore cache
+**/__pycache__
+
+# ignore frontend node_modules
+**/node_modules

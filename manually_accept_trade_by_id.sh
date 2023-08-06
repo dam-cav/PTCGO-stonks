@@ -1,0 +1,11 @@
+curl 'http://127.0.0.1:5000/accepttrade?uid=ID' \
+-H 'User-Agent: ' \
+-H 'Accept: application/json, text/plain, */*' \
+-H 'Accept-Language: en-US,en;q=0.5' --compressed \
+-H 'Content-Type: application/json;charset=utf-8' \
+-H 'Origin: null' \
+-H 'DNT: 1' \
+-H 'Connection: keep-alive' \
+-H 'Sec-Fetch-Dest: empty' \
+-H 'Sec-Fetch-Mode: cors' \
+-H 'Sec-Fetch-Site: cross-site' --data-raw '{}'
